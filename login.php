@@ -310,7 +310,7 @@ if(isset($_POST['login'])){
   if($check_login > 0){ 
   
   echo "<script>alert('You have logged in successfully !')</script>";
-  echo "<script>window.open('http://localhost/musiccorp/index.php','_self')</script>";
+  echo "<script>window.open('https://musiccorp.herokuapp.com/','_self')</script>";
   
   }
 }
