@@ -61,7 +61,7 @@
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               <a class="nav-link" href="login.php" >Login</a>
-			  <a class="nav-link" href="Register.php" >Register</a>
+			  <a class="nav-link" href="register.php" >Register</a>
 			  <a class="nav-link" href="viewproduct.php">Cart </a>
 			  <button class="btn btn-info btn-lg" href="demo.php"></button>
           </form>
