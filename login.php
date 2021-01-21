@@ -288,7 +288,7 @@ input[type=text]:placeholder {
   </form> 
 </div>
 <?php 
-$con = new mysqli('localhost', 'root', '', 'musiccorp');
+$con = new mysqli('54.198.76.120','loclx','123@123a','musiccorp');
       if (!$con){
         echo "ket noi that bai";        
       }
