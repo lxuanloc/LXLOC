@@ -115,7 +115,7 @@
 				 
 		  
 		global $con;
-				$con = new MySQLi('localhost','root','','musiccorp');
+				$con = new MySQLi('54.198.76.120','loclx','123@123a','musiccorp');
 				if (!$con)
 					{
 						echo "ket noi that bai";
