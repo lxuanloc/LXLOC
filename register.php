@@ -46,7 +46,7 @@ if (isset($_POST['register'])) {
             $run_insert = mysqli_query($con, "insert into account values ('$username','$password') ");
             if ($run_insert) {
                 echo "<script>alert('Account has been created successfully!')</script>";
-                echo "<script>window.open('https://musiccorp.herokuapp.com/Login.php','_self')</script>";
+                echo "<script>window.open('https://musiccorp.herokuapp.com/login.php','_self')</script>";
             }
         }
     }
